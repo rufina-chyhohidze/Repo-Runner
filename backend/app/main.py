@@ -62,7 +62,7 @@ def create_app(
             if engine is None:
                 app.state.engine.dispose()
 
-    app = FastAPI(title="Repository Copilot", version="0.1.0", lifespan=lifespan)
+    app = FastAPI(title="Repo Copilot", version="0.1.0", lifespan=lifespan)
 
     @app.exception_handler(StarletteHTTPException)
     async def http_error(request, exc):

@@ -1,4 +1,4 @@
-# GitHub Repository Copilot: implementation plan
+# Repo Copilot: implementation plan
 
 ## Product goal and delivery boundaries
 

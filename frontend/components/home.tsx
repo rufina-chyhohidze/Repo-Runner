@@ -85,7 +85,7 @@ export function Home({
         <a className="landing-brand" href="#">
           <Github size={30} />
           <span>
-            GitHub <b>Copilot</b>
+            Repo <b>Copilot</b>
           </span>
         </a>
         <div className="landing-links">
@@ -420,7 +420,7 @@ export function Home({
         <a className="landing-brand" href="#">
           <Github size={22} />
           <span>
-            GitHub <b>Copilot</b>
+            Repo <b>Copilot</b>
           </span>
         </a>
         <span>A little curiosity goes a long way.</span>

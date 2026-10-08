@@ -1,6 +1,6 @@
-# Repository workspace
+# Repo Copilot workspace
 
-GitHub Copilot is a Next.js/TypeScript workspace for public GitHub repositories, with an orange-and-obsidian theme, animated code orbits, cited chat, source browsing, and saved conversations. The landing page introduces it with “Don’t judge a repo by its cover. Look inside.” Built with React, Lucide icons, and CSS animations; no external fonts, image services, or animation runtime are required.
+Repo Copilot is a Next.js/TypeScript workspace for public GitHub repositories, with an orange-and-obsidian theme, animated code orbits, cited chat, source browsing, and saved conversations. The landing page introduces it with “Don’t judge a repo by its cover. Look inside.” Built with React, Lucide icons, and CSS animations; no external fonts, image services, or animation runtime are required.
 
 The landing illustration has a pause control and respects reduced-motion preferences. Fine pointers get an interactive cursor halo, while scrolling beyond the page bottom reveals a dismissible message with a cooldown. During indexing, the optional Repo Runner game supports Space/Up or touch to jump, Escape to pause, collision/restart, and a browser-local best score. It pauses when the tab is hidden and disappears when indexing ends. The game never blocks indexing.
 

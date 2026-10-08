@@ -345,13 +345,13 @@ export default function Workspace() {
         <button
           className="brand"
           onClick={() => navigate({})}
-          aria-label="GitHub Copilot home"
+          aria-label="Repo Copilot home"
         >
           <span className="brand-symbol">
             <Github size={23} />
           </span>
           <span>
-            GitHub<span className="brand-sub">COPILOT</span>
+            Repo<span className="brand-sub">COPILOT</span>
           </span>
         </button>
         <button className="add-repo" onClick={() => navigate({})}>

@@ -389,7 +389,7 @@ export function Chat({
                   <span className="avatar copilot">
                     <Sparkles size={13} />
                   </span>
-                  Copilot
+                  Repo Copilot
                   <span className="verified">
                     <Check size={11} />
                     Citations validated

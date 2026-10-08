@@ -1,11 +1,11 @@
-# GitHub_Copilot
+# Repo Copilot
 AI developer assistant that can ingest a repository, understand its structure, answer codebase questions with file/line citations, trace flows across files, and eventually analyze proposed changes.
 
 The product combines code-aware hybrid retrieval, deterministic repository tools, and a single tool-using agent. Answers are grounded in an immutable repository snapshot and include clickable, validated source citations.
 
 ## How it will work
 
-![Planned workflow: share a public GitHub project link, let Copilot prepare a saved version, ask a question, let it investigate the files, get an explanation, and click sources to check the answer.](docs/workflow.svg)
+![Planned workflow: share a public GitHub project link, let Repo Copilot prepare a saved version, ask a question, let it investigate the files, get an explanation, and click sources to check the answer.](docs/workflow.svg)
 
 ## First success criterion
 

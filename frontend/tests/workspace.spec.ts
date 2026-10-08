@@ -623,7 +623,7 @@ test("homepage library reopens repositories and confirms permanent deletion", as
   const address = new URL(page.url());
   const repositoryId = address.searchParams.get("repository")!;
   const conversationId = address.searchParams.get("conversation")!;
-  await page.getByRole("button", { name: "GitHub Copilot home" }).click();
+  await page.getByRole("button", { name: "Repo Copilot home" }).click();
   await page
     .getByRole("link", { name: "My repositories", exact: true })
     .click();
@@ -643,7 +643,7 @@ test("homepage library reopens repositories and confirms permanent deletion", as
   ).toBeFocused();
   await page.keyboard.press("Escape");
   await expect(dialog).toHaveCount(0);
-  await page.getByRole("button", { name: "GitHub Copilot home" }).click();
+  await page.getByRole("button", { name: "Repo Copilot home" }).click();
   await library
     .getByRole("button", { name: `Delete ${repo}`, exact: true })
     .click();
