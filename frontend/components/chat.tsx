@@ -386,10 +386,10 @@ export function Chat({
                 </>
               ) : (
                 <>
-                  <span className="avatar copilot">
+                  <span className="avatar assistant">
                     <Sparkles size={13} />
                   </span>
-                  Repo Copilot
+                  Repo Runner
                   <span className="verified">
                     <Check size={11} />
                     Citations validated

@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
-import { ArrowUp, Github, X } from "lucide-react";
+import { ArrowUp, Bot, X } from "lucide-react";
 
 export function PlayfulEffects() {
   const cursor = useRef<HTMLDivElement>(null);
@@ -87,7 +87,7 @@ export function PlayfulEffects() {
       </div>
       {bottom && (
         <div className="bottom-toast" role="status">
-          <Github size={26} />
+          <Bot size={26} />
           <div>
             <strong>You’ve reached the bottom.</strong>
             <p>Of the page, of course. Your potential? Limitless.</p>

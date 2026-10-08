@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 export const metadata: Metadata = {
-  title: "Repo Copilot — Don’t judge a repo by its cover. Look inside.",
+  title: "Repo Runner — Don’t judge a repo by its cover. Look inside.",
   description:
     "An evidence-backed workspace for understanding public GitHub repositories.",
 };

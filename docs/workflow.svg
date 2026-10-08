@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="850" viewBox="0 0 720 850" role="img" aria-labelledby="title description">
   <title id="title">From a GitHub project to an answer you can check</title>
-  <desc id="description">Planned workflow. First, share a public GitHub project link. Repo Copilot organizes a saved version of its files. Ask a question in everyday language. Repo Copilot searches and reads relevant files, following connections for more context. It gives an explanation with source links and says when evidence is missing. Click a source to see the exact lines in that saved version. Ask follow-up questions whenever needed. Version one reads code without running or changing it.</desc>
+  <desc id="description">Planned workflow. First, share a public GitHub project link. Repo Runner organizes a saved version of its files. Ask a question in everyday language. Repo Runner searches and reads relevant files, following connections for more context. It gives an explanation with source links and says when evidence is missing. Click a source to see the exact lines in that saved version. Ask follow-up questions whenever needed. Version one reads code without running or changing it.</desc>
   <defs>
     <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
       <path d="M0 0 L8 4 L0 8" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
@@ -28,7 +28,7 @@
   <rect x="40" y="255" width="640" height="90" rx="14" fill="#fff" stroke="#cbd5e1"/>
   <circle cx="80" cy="300" r="22" fill="#e2e8f0"/>
   <text x="80" y="306" class="number" fill="#334155">2</text>
-  <text x="120" y="289" class="heading">Repo Copilot prepares the project</text>
+  <text x="120" y="289" class="heading">Repo Runner prepares the project</text>
   <text x="120" y="315" class="body">It saves a version and organizes the files for searching.</text>
   <line x1="360" y1="351" x2="360" y2="371" class="connector"/>
 
@@ -42,7 +42,7 @@
   <rect x="40" y="505" width="640" height="90" rx="14" fill="#fff" stroke="#cbd5e1"/>
   <circle cx="80" cy="550" r="22" fill="#e2e8f0"/>
   <text x="80" y="556" class="number" fill="#334155">4</text>
-  <text x="120" y="534" class="heading">Repo Copilot investigates</text>
+  <text x="120" y="534" class="heading">Repo Runner investigates</text>
   <text x="120" y="558" class="body">It searches and reads relevant files, following connections</text>
   <text x="120" y="579" class="body">when it needs more context.</text>
   <line x1="360" y1="601" x2="360" y2="621" class="connector"/>
@@ -52,7 +52,7 @@
   <text x="80" y="681" class="number" fill="#15803d">5</text>
   <text x="120" y="659" class="heading">Get an answer you can check</text>
   <text x="120" y="683" class="body">Read the explanation and click sources to see exact lines.</text>
-  <text x="120" y="704" class="body">Repo Copilot tells you when the evidence is incomplete.</text>
+  <text x="120" y="704" class="body">Repo Runner tells you when the evidence is incomplete.</text>
 
   <text x="360" y="759" text-anchor="middle" font-size="17" font-weight="600" fill="#1d4ed8">Keep exploring: ask a follow-up question.</text>
   <text x="360" y="796" text-anchor="middle" font-size="14" fill="#64748b">Sources always open the saved version used for the answer.</text>

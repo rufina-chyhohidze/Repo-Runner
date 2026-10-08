@@ -1,12 +1,5 @@
 "use client";
-import {
-  ArrowRight,
-  FolderGit2,
-  Github,
-  LoaderCircle,
-  Trash2,
-  X,
-} from "lucide-react";
+import { ArrowRight, FolderGit2, LoaderCircle, Trash2, X } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { allPages, errorText } from "@/lib/api";
 
@@ -85,7 +78,7 @@ export function RepositoryLibrary({
                 onClick={() => onOpen(item.id)}
                 aria-label={`Open ${item.name}`}
               >
-                <Github size={22} />
+                <FolderGit2 size={22} />
                 <span>
                   <strong>{item.name.split("/").at(-1)}</strong>
                   <small>{item.name.split("/")[0]}</small>

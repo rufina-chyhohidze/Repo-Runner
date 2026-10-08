@@ -1,1 +1,1 @@
-"""Repo Copilot backend. Services remain independent of the agent framework."""
+"""Repo Runner backend. Services remain independent of the agent framework."""

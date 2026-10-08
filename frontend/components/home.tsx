@@ -8,7 +8,7 @@ import {
   Code2,
   FileCode2,
   GitBranch,
-  Github,
+  SquareCode,
   LoaderCircle,
   MessageSquare,
   Pause,
@@ -26,7 +26,7 @@ const steps = [
     title: "Bring a repository",
     description:
       "One public GitHub link. We map the files and save the exact commit, so every exploration has a solid starting point.",
-    icon: Github,
+    icon: SquareCode,
   },
   {
     title: "Ask what matters",
@@ -83,9 +83,9 @@ export function Home({
       <PlayfulEffects />
       <nav className="landing-nav" aria-label="Main navigation">
         <a className="landing-brand" href="#">
-          <Github size={30} />
+          <SquareCode size={30} />
           <span>
-            Repo <b>Copilot</b>
+            Repo <b>Runner</b>
           </span>
         </a>
         <div className="landing-links">
@@ -161,7 +161,7 @@ export function Home({
               <FileCode2 size={20} />
             </span>
             <div className="universe-core">
-              <Github size={64} strokeWidth={1.3} />
+              <SquareCode size={64} strokeWidth={1.3} />
               <span className="core-spark">
                 <Sparkles size={16} />
               </span>
@@ -192,7 +192,7 @@ export function Home({
               Start with a public GitHub repository
             </label>
             <div className="home-url">
-              <Github size={17} />
+              <SquareCode size={17} />
               <input
                 id="repository-url"
                 type="url"
@@ -337,7 +337,7 @@ export function Home({
             {step === 0 ? (
               <>
                 <div className="demo-repo">
-                  <Github size={25} />
+                  <SquareCode size={25} />
                   <strong>your-next-project</strong>
                   <span>main</span>
                 </div>
@@ -418,9 +418,9 @@ export function Home({
       </section>
       <div className="home-bottom">
         <a className="landing-brand" href="#">
-          <Github size={22} />
+          <SquareCode size={22} />
           <span>
-            Repo <b>Copilot</b>
+            Repo <b>Runner</b>
           </span>
         </a>
         <span>A little curiosity goes a long way.</span>

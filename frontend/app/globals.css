@@ -1019,7 +1019,7 @@ progress {
   color: #b5b6bf;
   font-size: 10px;
 }
-.avatar.copilot {
+.avatar.assistant {
   background: #16171c;
   color: #b5b6bf;
 }
@@ -1622,7 +1622,7 @@ textarea::placeholder {
 }
 .brand-symbol,
 .spark-tile,
-.avatar.copilot {
+.avatar.assistant {
   color: var(--accent);
   background: #ff873d12;
   border-color: #ff873d33;

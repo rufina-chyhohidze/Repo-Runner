@@ -1,5 +1,5 @@
 "use client";
-import { Github, Pause, Play, RotateCcw, Trophy } from "lucide-react";
+import { Bot, Pause, Play, RotateCcw, Trophy } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
 type Mode = "idle" | "running" | "paused" | "over";
@@ -133,7 +133,7 @@ export function RepoRunner() {
           style={{ bottom: `${29 + frame.y}px` }}
           aria-hidden="true"
         >
-          <Github size={34} />
+          <Bot size={34} />
         </div>
         <div
           className="runner-obstacle"

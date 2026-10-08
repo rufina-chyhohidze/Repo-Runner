@@ -7,7 +7,8 @@ import {
   ExternalLink,
   FileCode2,
   GitBranch,
-  Github,
+  FolderGit2,
+  SquareCode,
   Layers,
   LoaderCircle,
   MessageSquare,
@@ -345,13 +346,13 @@ export default function Workspace() {
         <button
           className="brand"
           onClick={() => navigate({})}
-          aria-label="Repo Copilot home"
+          aria-label="Repo Runner home"
         >
           <span className="brand-symbol">
-            <Github size={23} />
+            <SquareCode size={23} />
           </span>
           <span>
-            Repo<span className="brand-sub">COPILOT</span>
+            Repo<span className="brand-sub">RUNNER</span>
           </span>
         </button>
         <button className="add-repo" onClick={() => navigate({})}>
@@ -371,7 +372,7 @@ export default function Workspace() {
               className={repository?.id === item.id ? "active" : ""}
               onClick={() => navigate({ repository: item.id })}
             >
-              <Github size={16} />
+              <FolderGit2 size={16} />
               <span>
                 {item.name.split("/").at(-1)}
                 <small>{item.name.split("/")[0]}</small>
@@ -391,7 +392,7 @@ export default function Workspace() {
             </span>
           </div>
           <a href="https://github.com" target="_blank" rel="noreferrer">
-            <Github size={15} />
+            <FolderGit2 size={15} />
             Public GitHub repositories
             <ExternalLink size={12} />
           </a>
@@ -451,7 +452,7 @@ export default function Workspace() {
                 <div>
                   <span className="eyebrow">REPOSITORY WORKSPACE</span>
                   <h1>
-                    <Github size={24} />
+                    <FolderGit2 size={24} />
                     {shortName(repository.canonical_url)}
                   </h1>
                   <p>

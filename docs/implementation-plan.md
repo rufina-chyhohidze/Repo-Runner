@@ -1,4 +1,4 @@
-# Repo Copilot: implementation plan
+# Repo Runner: implementation plan
 
 ## Product goal and delivery boundaries
 
